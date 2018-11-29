@@ -1,0 +1,31 @@
+{
+  "name": "mys3uploadsrvless",
+  "version": "1.0.0",
+  "description": "edx photouploader project - serverless implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mys3uploadsrvless"
+  },
+  "keywords": [
+    "aws",
+    "serverless",
+    "cognito",
+    "react",
+    "lambda",
+    "s3",
+    "webapp"
+  ],
+  "author": "sgp",
+  "license": "ISC",
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "webpack": "^4.26.1"
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^3.0.3"
+  }
+}
